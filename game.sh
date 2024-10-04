@@ -7,6 +7,8 @@ elif [ "$location" == "castle" ]; then
 cat castle.txt
 elif [ "$location" ]; then
 cat cave.txt
+echo "but wait..."
+cat monster.txt
 else
 echo "Invalid location."
 fi
